@@ -5,8 +5,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.view.View;
 
-public class PlaneView {
+public class PlaneView extends View {
     public float currentX;
     public float currentY;
     Bitmap plane;
